@@ -1,0 +1,68 @@
+{
+  "_from": "osx-keylogger",
+  "_id": "osx-keylogger@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-jyr4oRAmCs23F9WRaq3sFj27MYdKwtFjjI1V9IY/MtI3RlyZOxmTDfXkCmVbl7w7yMHphZLvzlLXP5yLE+8eaw==",
+  "_location": "/osx-keylogger",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "osx-keylogger",
+    "name": "osx-keylogger",
+    "escapedName": "osx-keylogger",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/osx-keylogger/-/osx-keylogger-1.0.1.tgz",
+  "_shasum": "cb80fcebd94fcc2203655b38946b6466bf57499f",
+  "_spec": "osx-keylogger",
+  "_where": "/Users/michaelbeeson",
+  "author": {
+    "name": "Magnus Weinberg",
+    "email": "magnus.weinberg@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/JustZisGuy/osx-keylogger/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "nan": "^2.6.2"
+  },
+  "deprecated": false,
+  "description": "Mac OS X 10.5+ Keylogger POC",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "librarity": "^0.1.0"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/JustZisGuy/osx-keylogger#readme",
+  "keywords": [
+    "osx",
+    "keylogger"
+  ],
+  "license": "MIT",
+  "main": "./osx-keylogger",
+  "name": "osx-keylogger",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JustZisGuy/osx-keylogger.git"
+  },
+  "scripts": {
+    "build": "npm install && npm run eslint && npm run readme",
+    "eslint": "eslint *.js",
+    "install": "node-gyp rebuild",
+    "readme": "librarity"
+  },
+  "version": "1.0.1"
+}
